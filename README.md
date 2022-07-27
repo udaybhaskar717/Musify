@@ -18,7 +18,7 @@ Music is essentially composed of Notes and Chords. Let me explain these terms fr
 1. Import Libraries
 2. Reading Musical Files
 3. Preparing Data
-4. Buid LSTM model
+4. Build LSTM model
 5. Tune the Hyper parameter by trail and error method
 6. Run the last cell and a file named as AI_composed_music.mid will be saved
 7. Play the file AI_composed_music.mid
