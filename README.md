@@ -1,11 +1,12 @@
-# Musify
-## Automatic Music Generator:
-Music is a collection of tones of different frequencies. So, the Automatic Music Generation is a process of composing a short piece of music with minimum human intervention
-## What are the Constituent Elements of Music?
-Music is essentially composed of Notes and Chords. Let me explain these terms from the perspective of the piano instrument:
-
-Note: The sound produced by a single key is called a note
-Chords: The sound produced by 2 or more keys simultaneously is called a chord. Generally, most chords contain at least 3 key sounds
-Octave: A repeated pattern is called an octave. Each octave contains 7 white and 5 black keys
-##  Using Long Short Term Memory (LSTM) Model for Automatic Music Generation Implementation:
-Music 21 is a Python library developed by MIT for understanding music data. MIDI is a standard format for storing music files. MIDI stands for Musical Instrument Digital Interface. MIDI files contain the instructions rather than the actual audio. Hence, it occupies very little memory. That’s why it is usually preferred while transferring files.
+# MUSIFY - Music-Composition-using-AI
+The Project has been developed to create new piece of music using Piano Notes
+## About Project
+Platform : Visual Studio Code / Jupyter Notebook
+Language : Python 3.8
+Libraries Used : Tensorflow, Music21, Keras, NumPy, Sklearn, tqdm
+Dataset : https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi
+## File structure
+All Midi Files/ : This is the dataset folder containing various midi files of different composers.
+code.ipynb : In this file, we will build, train and test our model.
+MOD/ : This directory contains optimizer, metrics, and weights of our trained model.
+AI_composed_music.mid : This is a music file of predicted notes.
